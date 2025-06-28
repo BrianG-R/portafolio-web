@@ -8,30 +8,59 @@
 </head>
 <body>
   <header class="header">
-    <h1>Proyecto 1</h1>
-    <p>Detalles completos del proyecto 1</p>
+    <h1>SweetScape</h1>
+    <p>Detalles completos de SweetScape</p>
   </header>
+  <div id="imgModal" class="modal" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <button class="close" aria-label="Cerrar imagen">&times;</button>
+    <img class="modal-content" id="imgInModal" alt="Imagen ampliada" />
+  </div>
 
+  
   <section>
-    <h2>Descripción</h2>
-    <p>Este proyecto consiste en ... (aquí describes con más detalle el proyecto, funcionalidades, retos, tecnologías usadas, etc.)</p>
+    <div class="image-row">
+    <img src="assets/SweetScape1.png" alt="Imagen 1" class="expandable-img" />
+    <img src="assets/SweetScape2.png" alt="Imagen 2" class="expandable-img" />
+    <img src="assets/SweetScape3.png" alt="Imagen 3" class="expandable-img" />
+    </div>
   </section>
+  
+
 
   <section>
+  <div class="card">
+    <h2>Descripción</h2>
+    <p>
+      <strong>SweetScape</strong> es una aplicación móvil desarrollada con Visual Studio 2022 utilizando .NET y Xamarin, pensada para optimizar la gestión de una pastelería.
+    </p>
+    <p>
+      Permite registrar clientes, productos y sucursales mediante un sistema CRUD. Se enfocó en una interfaz simple y adaptable a dispositivos móviles.
+    </p>
+    <p class="tech">Tecnologías utilizadas: .NET, Xamarin, C#, HTML, CSS.</p>
+  </div>
+</section>
+
+<section>
+  <div class="card"> 
     <h2>Características</h2>
     <ul>
-      <li>Funcionalidad A</li>
-      <li>Funcionalidad B</li>
-      <li>Interfaz amigable</li>
-      <li>Tecnologías: React, Node.js, etc.</li>
+      <li>Registro y gestión de clientes</li>
+      <li>CRUD completo para productos de la pastelería</li>
+      <li>Administración de sucursales</li>
+      <li>Interfaz móvil intuitiva y amigable</li>
+      <li>Desarrollado en Xamarin con Visual Studio 2022</li>
+      <li>Conectividad con bases de datos locales</li>
+      <li>Tecnologías: .NET, Xamarin, C#, HTML, CSS</li>
     </ul>
-  </section>
+  </div>
+</section>
 
   <section>
     <a href="index.html" class="btn">Volver al Portafolio</a>
-    <a href="#" class="btn btn-outline">Ver en GitHub</a>
   </section>
+  
 
-  <script src="js/main.js"></script>
+<script src="css/main.js"></script>
+  
 </body>
 </html>
