@@ -3,33 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Proyecto 1 - Detalles</title>
+  <title>Proyecto 3 - Gestión de Inventario</title>
   <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
   <header class="header">
-    <h1>Proyecto 3</h1>
-    <p>Detalles completos del proyecto 1</p>
+    <h1>Gestión de Inventario</h1>
+    <p>Detalles completos del proyecto de gestión de inventario con CRUD y base de datos.</p>
   </header>
-
+  <div id="imgModal" class="modal" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <button class="close" aria-label="Cerrar imagen">&times;</button>
+    <img class="modal-content" id="imgInModal" alt="Imagen ampliada" />
+  </div>
   <section>
-    <h2>Descripción</h2>
-    <p>Este proyecto consiste en ... (aquí describes con más detalle el proyecto, funcionalidades, retos, tecnologías usadas, etc.)</p>
+    <div class="image-row">
+    <img src="assets/GestionInventario1.png" alt="Imagen 1" class="expandable-img" />
+    <img src="assets/GestionInventario.png" alt="Imagen 2" class="expandable-img" />
+    <img src="assets/GestionInventario2.png" alt="Imagen 2" class="expandable-img" />
+    </div>
   </section>
 
   <section>
+    <div class="card">
+    <h2>Descripción</h2>
+    <p>
+      Este proyecto fue desarrollado para gestionar el inventario de productos de manera eficiente mediante un sistema CRUD
+      (Crear, Leer, Actualizar, Eliminar). La aplicación fue construida utilizando Java y se conecta a una base de datos MySQL 
+      para almacenar la información. Se trabajó en el entorno de desarrollo NetBeans, aprovechando su integración con bases de datos 
+      y herramientas gráficas. El sistema permite registrar productos, editar información, eliminar registros y consultar el stock en tiempo real.
+    </p>
+    <p>
+      Uno de los principales retos fue implementar una conexión estable y segura entre la aplicación Java y MySQL, así como manejar 
+      validaciones y excepciones correctamente para evitar errores durante la manipulación de datos. También se enfocó en una interfaz 
+      de usuario clara y funcional usando Swing.
+    </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
     <h2>Características</h2>
     <ul>
-      <li>Funcionalidad A</li>
-      <li>Funcionalidad B</li>
-      <li>Interfaz amigable</li>
-      <li>Tecnologías: React, Node.js, etc.</li>
+      <li>Registro y edición de productos con validación de datos</li>
+      <li>Eliminación y consulta de inventario en tiempo real</li>
+      <li>Conexión a base de datos MySQL usando JDBC</li>
+      <li>Interfaz gráfica desarrollada con Java Swing</li>
+      <li>Manejo de errores y excepciones</li>
+      <li>Desarrollado en NetBeans</li>
+      <li>Tecnologías: Java, MySQL, JDBC, Swing</li>
     </ul>
+    </div>
   </section>
 
   <section>
     <a href="index.html" class="btn">Volver al Portafolio</a>
-    <a href="#" class="btn btn-outline">Ver en GitHub</a>
+    <a href="https://github.com/BrianG-R/GestionInventarioBeta.git" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
   </section>
 
   <script src="css/main.js"></script>
